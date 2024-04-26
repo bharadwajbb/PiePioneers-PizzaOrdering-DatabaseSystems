@@ -51,7 +51,8 @@ export default function FoodEditPage() {
 
   const upload = async event => {
     setImageUrl(null);
-    const imageUrl = await uploadImage(event);
+    // const imageUrl = await uploadImage(event);
+    const imageUrl = "http://localhost:5000/foods/" + event.target.files[0].name
     setImageUrl(imageUrl);
   };
 

@@ -1,15 +1,15 @@
 .header {
-  background: white;
+  background: #d1411e;
   padding: 0;
-  border-bottom: 1px solid #e72929;
+  border-bottom: 1px solid #d1411e;
 }
 
 .header a {
-  color: #af1313;
+  color: white;
 }
 
 .header a:hover {
-  background: #e72929;
+  background: #e55656;
   color: white;
   cursor: pointer;
 }
@@ -43,7 +43,8 @@
 .menu {
   position: absolute;
   z-index: 1001;
-  background-color: whitesmoke;
+  background-color: #d1411e;
+  color: white;
   display: none;
 }
 
@@ -57,8 +58,8 @@
 }
 
 .cart_count {
-  background-color: #ff4d4d;
-  color: white;
+  background-color: white;
+  color: #d1411e;
   padding: 0.1rem 0.45rem;
   border-radius: 100rem;
   font-size: 0.9rem;
